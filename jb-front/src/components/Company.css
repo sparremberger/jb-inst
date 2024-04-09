@@ -1,0 +1,32 @@
+/* Company.css */
+
+.company-container {
+    text-align: center; /* Center content horizontally */
+    margin-left:60px;
+    margin-right:60px;
+  }
+  
+  .company-title {
+    color: black; /* Black color for the title */
+    font-weight: bold; /* Bold font for the title */
+  }
+  
+  .company-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .company-links li {
+    margin: 10px 0;
+  }
+  
+  .company-links a {
+    color: #6d6d6d; /* Dark grey color for the links */
+    text-decoration: none;
+  }
+  
+  .company-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  

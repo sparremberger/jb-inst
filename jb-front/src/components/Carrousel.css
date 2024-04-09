@@ -1,0 +1,30 @@
+/* Carrousel.css */
+.large-banner {
+    height: 280px;
+    background-color: #ffcc00; /* Example background color */
+    width: 100vw;
+    overflow:hidden;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .large-banner {
+        height: 430px;
+        width: 100%;
+    }
+}

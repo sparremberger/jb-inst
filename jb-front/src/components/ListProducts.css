@@ -1,0 +1,58 @@
+/* ListProducts.css */
+
+.list-products {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.list-products > * {
+  flex: 1 0 calc(20% - 15px); /* Adjust flex basis for 4 products per row */
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: 2px solid transparent; /* Add border */
+  transition: border-color 0.3s; /* Add transition for border color */
+}
+
+.list-products > *:hover {
+  border-color: black; /* Change border color on hover */
+}
+
+h1, h2, h4 {
+  margin-left: 10px;
+}
+
+h4 {
+  color: rgb(123, 123, 123);
+  font-weight: 400;
+}
+
+.breadcrumbs-container {
+  border: 2px solid #ccc; /* Add border to container */
+  padding: 10px;
+  margin-top: 20px; /* Add margin to separate from products */
+}
+
+.breadcrumbs-list {
+  list-style: none; /* Remove default list style */
+  padding: 0;
+}
+
+.breadcrumb-item {
+  cursor: pointer;
+  margin-bottom: 5px; /* Add margin between breadcrumbs */
+}
+
+.breadcrumb-item:hover {
+  background-color: #f0f0f0; /* Add background color on hover */
+}
+
+@media only screen and (max-width: 768px) {
+  .list-products {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

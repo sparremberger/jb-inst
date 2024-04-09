@@ -1,0 +1,13 @@
+/* RedButton.css */
+
+.red-button {
+    background-color: #9b1d22; /* Red background color */
+    color: white; /* White text color */
+    padding: 10px 24px; /* Vertical and horizontal padding */
+    border: none;
+    border-radius: 5px; /* Border radius */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 12px; /* Font size */
+    text-align: center; /* Center text horizontally */
+  }
+  

@@ -1,0 +1,140 @@
+/* Home.css */
+
+.home-container {
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1a86; /* You can customize the color */
+  }
+  
+  .logo img {
+    margin-left:80px;
+    margin-right: 80px;
+    height: 80px; /* Adjust as needed */
+  }
+
+  .logo {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  
+  .links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .links a {
+    color: white; /* You can customize the color */
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .links a:hover {
+    color: #ffcc00; /* Change text color on hover */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: #777; /* Placeholder color */
+  }
+  
+  .search button {
+    padding: 8px 12px;
+    background-color: #4285f4; /* You can customize the color */
+    color: white; /* You can customize the color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .hamburger-menu {
+    display: none; /* Hide by default on larger screens */
+    cursor: pointer;
+  }
+  
+  .mobile-menu-section {
+    display: block;
+    background-color: #f5f5f5; /* Customize the background color */
+    padding: 15px;
+    /* Add any additional styling for the mobile menu section */
+  }
+  
+  .mobile-menu-section .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .mobile-menu-section .links a {
+    color: #333; /* Customize the color */
+  }
+  
+  .mobile-menu-section .search {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .mobile-menu-section .search input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: #777; /* Placeholder color */
+  }
+  
+  .mobile-menu-section .search button {
+    padding: 8px 12px;
+    background-color: #4285f4; /* You can customize the color */
+    color: white; /* You can customize the color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .links,
+    .search,
+    .hamburger-menu {
+      display: none;
+    }
+  
+    .menu-open .mobile-menu-section {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .hamburger-menu {
+      display: flex;
+      align-items: center;
+      color:white;
+      font-size:24px;
+    }
+
+    .navbar {
+      padding: 15px;
+    }
+
+    .logo img {
+      margin-left:120px;
+      margin-right: 80px;
+      height: 80px; /* Adjust as needed */
+    }
+  
+    .logo {
+      background: none;
+    }
+  }
+  

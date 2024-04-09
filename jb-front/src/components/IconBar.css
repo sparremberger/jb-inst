@@ -1,0 +1,46 @@
+/* IconBar.css */
+
+.icon-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    background-color: white; /* Set the background color to white */
+    overflow-x: auto; /* Allow horizontal scrolling on mobile */
+    padding: 5px; /* Add padding to reduce the space between icons */
+    
+}
+
+.icon {
+    text-align: center;
+    min-width: 80px;
+    max-width: 80px; /* Maximum width for each icon */
+    padding: 50px; /* Add padding around each icon */
+}
+
+.icon-image {
+    max-height: 80px; /* Maximum height for each icon */
+    max-width: 100%;
+    border-radius: 50%; /* Make the border circular */
+    border: 2px solid #888; /* Set a solid grey border around each icon */
+}
+
+.icon-title {
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+    
+    color: #333; /* Customize the text color */
+    margin-top: 5px;
+    font-size: 14px; /* Customize the font size */
+}
+
+@media only screen and (max-width: 768px) {
+    .icon-bar {
+        padding-left:360px;
+    }
+    .icon {
+        padding:5px;
+        margin-left:40px;
+    }
+}

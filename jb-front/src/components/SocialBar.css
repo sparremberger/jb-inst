@@ -1,0 +1,30 @@
+/* SocialBar.css */
+
+.social-bar {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* You can customize the background color */
+    color: white; /* You can customize the text color */
+  }
+  
+  .social-bar p {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    color: white; /* You can customize the icon color */
+    font-size: 24px; /* You can customize the icon size */
+    text-decoration: none;
+  }
+  
+  /* Add hover styles if needed */
+  .social-icons a:hover {
+    opacity: 0.8;
+  }
+  

@@ -1,0 +1,23 @@
+.empresa-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+  }
+
+  .empresa-background {
+    
+  }
+ 
+  
+  .empresa-image img {
+    width: 100%; /* Span the entire horizontal space */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Prevent stretching */
+  }
+  
+  .empresa-text {
+    padding: 15px;
+    text-align: center; /* Horizontally center the text */
+  }
+  
