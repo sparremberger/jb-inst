@@ -16,12 +16,38 @@ import WelcomeBar from "./WelcomeBar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ListProducts from "./ListProducts.js";
 import EndlessText from "./EndlessText.js";
+import InstaCarousel from "./InstaCarousel.js";
+import MultiCarousel from "./MultiCarousel.js";
+
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "../@/components/ui/dialog.tsx";
+
 
 const Home = () => {
     return (
         <div>
-
             <Carrousel />
+            <Dialog>
+                <DialogTrigger>Open</DialogTrigger>
+                <DialogContent>
+                    <DialogHeader>
+                        <DialogTitle>Are you absolutely sure?</DialogTitle>
+                        <DialogDescription>
+                            This action cannot be undone. This will permanently
+                            delete your account and remove your data from our
+                            servers.
+                        </DialogDescription>
+                    </DialogHeader>
+                </DialogContent>
+            </Dialog>
+
+            <MultiCarousel />
             <WelcomeBar />
             <IconBar />
             <div className='boxes'>

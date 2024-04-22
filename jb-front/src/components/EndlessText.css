@@ -1,6 +1,6 @@
 /* src/components/EndlessText.css */
 .endless-text {
-    background-color: rgb(0, 0, 54);
+    background-color: #0074E8;
     text-align: center;
     padding: 20px;
     margin: 0 auto; /* Center the component */
@@ -20,7 +20,7 @@
   }
   
   .endless-text p {
-    color:rgb(146, 146, 146);
+    color:rgb(255, 255, 255);
     font-size: 12px;
     line-height: 1.5;
     margin-bottom: 15px;
